@@ -1,0 +1,23 @@
+
+ing_eth_frame_too_short:            0
+ing_eth_frame_too_long:             0
+ing_eth_bad_type:                   0
+ing_eth_bad_src:                    0
+ing_eth_bad_dst:                    0
+ing_eth_unicast:            217064673
+ing_eth_multicast:                  0
+ing_eth_frame:              217064673
+ing_flip_bad_length:                0
+ing_flip_no_ext_checksum:           0
+ing_flip_bad_ext_type:              0
+ing_flip_bad_ext_checksum:          0
+ing_flip_too_many_ext:              0
+ing_flip_bad_flow_id:               0
+ing_flip_bad_seq_number:       125834
+ing_flip_dupl_seq_number:         117
+ing_flip_loss_seq_number:         172
+ing_flip_not_open:              47919
+ing_flip_echo_good:              2728
+ing_flip_good:                      0
+egr_eth_frame_write:        216935994
+egr_eth_frame:              220442058

@@ -1,0 +1,64 @@
+002b9aa0	002b9aa0	00004a46							1								memset	           MV.L1         A4,A18
+002b9aa2	002b9aa2	00003a4e															memset	 ||        .word         0x00000098
+002b9aa4	002b9aa4	009808f0															memset	 ||        MV.D1         A6,A1
+002b9aa8	002b9aa8	01c800d8							1								memset	           NEG.L1        A18,A3
+002b9aac	002b9aac	028cef59							1								memset	           AND.L1        7,A3,A5
+002b9ab0	002b9ab0	01c62ff0															memset	 ||        PACK2.S1      A17,A17,A3
+002b9ab4	002b9ab4	0000cee8							1								memset	           CMPGTU.L1     A6,A5,A0
+002b9ab6	002b9ab6	000092c7							1								memset	           STW.D1T1      A1,*A5[6]
+002b9ab8	002b9ab8	c094c5e1															memset	 || [ A0]  SUB.S1        A6,A5,A1
+002b9ac0	002b9ac0	038c6d19															memset	 ||        PACKL4.L1     A3,A3,A7
+002b9ac4	002b9ac4	0000c256															memset	 ||        MV.D1         A4,A6
+002b9ac6	002b9ac6	4976							1								memset	           STW.D1T1      A1,*A6[6]
+002b9ac8	002b9ac8	c1144f59															memset	 || [ A0]  AND.L1        2,A5,A2
+002b9acc	002b9acc	00102f5b															memset	 ||        AND.L2        1,B4,B0
+002b9ad0	002b9ad0	080489a0															memset	 ||        SHRU.S1       A1,0x4,A16
+002b9ad4	002b9ad4	4867							1								memset	    [!A0]  MVK.L2        0,B0
+002b9ad6	002b9ad6	4876															memset	 ||        STW.D1T1      A1,*A4[6]
+002b9ad8	002b9ad8	c0148f59															memset	 || [ A0]  AND.L1        4,A5,A0
+002b9ae0	002b9ae0	09c08ca1															memset	 ||        SHL.S1        A16,0x4,A19
+002b9ae4	002b9ae4	0000f0cf															memset	 ||        MV.S2X        A1,B7
+002b9ae6	002b9ae6	000083ce							1								memset	           .word         0x000028c8
+002b9ae8	002b9ae8	28c80235						8									memset	 || [ B0]  STB.D1T1      A17,*+A18[0]
+002b9aec	002b9aec	23102059															memset	 || [ B0]  ADD.L1        1,A4,A6
+002b9af0	002b9af0	9380a35a															memset	 || [!A1]  MVK.L2        0,B7
+002b9af4	002b9af4	a3983655						10	1								memset	    [ A2]  STH.D1T1      A7,*A6++[1]
+002b9af8	002b9af8	000027c6															memset	 ||        MV.L1         A7,A9
+002b9afa	002b9afa	0000a3ce															memset	 ||        SUB.L1        A7,A0,A4
+002b9b00	002b9b00	c3983675						20	1								memset	    [ A0]  STW.D1T1      A7,*A6++[1]
+002b9b04	002b9b04	0005ebd9															memset	 ||        CMPLTU.L1     0xf,A1,A0
+002b9b08	002b9b08	000007ce															memset	 ||        MV.S1         A7,A8
+002b9b0a	002b9b0a	730							4								memset	           ADD.L1        A5,6,A4
+002b9b0c	002b9b0c	c6c013a3															memset	 || [ A0]  MVC.S2X       A16,ILC
+002b9b10	002b9b10	d0206120															memset	 || [!A0]  BNOP.S1       0x2b9b40,3
+002b9b14	002b9b14	c3181fda							1								memset	    [ A0]  MV.L2X        A6,B6
+002b9b18	002b9b18	c2a41fda							1								memset	    [ A0]  MV.L2X        A9,B5
+002b9b20	002b9b20	00000c66							1								memset	           SPLOOP        1
+002b9b22	002b9b22	9407															memset	 ||        STDW.D2T2     B5:B4,*B6++[2]
+002b9b24	002b9b24	00002ce6							1					SPLOOP Prolog			memset	           SPMASK        L2
+002b9b26	002b9b26	00003d45						20						SPLOOP Prolog			memset	 ||        LDW.D1T1      *A7[0],A4
+002b9b28	002b9b28	03ccf0fb												SPLOOP Prolog			memset	 ||^       SUB.L2X       B7,A19,B7
+002b9b2c	002b9b2c	020c5744						40						SPLOOP Prolog			memset	 ||        STDW.D1T1     A5:A4,*A3++[2]
+002b9b26	002b9b26	00003d45						20	1					SPLOOP Kernel			memset	 ||        LDW.D1T1      *A7[0],A4
+002b9b2c	002b9b2c	020c5744						40						SPLOOP Kernel			memset	 ||        STDW.D1T1     A5:A4,*A3++[2]
+002b9b30	002b9b30	00001c67												SPLOOP Kernel			memset	           SPKERNEL      1,0
+002b9b30	002b9b30	00001c67							1					SPLOOP Epilog			memset	           SPKERNEL      1,0
+002b9b32	002b9b32	000036c6							1								memset	           MV.L1X        B4,A8
+002b9b34	002b9b34	0000d346							1								memset	           MV.L1X        B6,A6
+002b9b36	002b9b36	1646							1								memset	           NOP           1
+002b9b38	002b9b38	00000c6e															memset	 ||        NOP           1
+002b9b3a	002b9b3a	00000c6e															memset	 ||        STW.D1T1      A6,*B15[19]
+002b9b40	002b9b40	000c0363							1								memset	           B.S2          B3
+002b9b44	002b9b44	001d0f5a															memset	 ||        AND.L2        8,B7,B0
+002b9b48	002b9b48	001c8f5b							1								memset	           AND.L2        4,B7,B0
+002b9b4c	002b9b4c	23190059															memset	 || [ B0]  ADD.L1        8,A6,A6
+002b9b50	002b9b50	24980374						40									memset	 || [ B0]  STNDW.D1T1    A9:A8,*+A6[0]
+002b9b54	002b9b54	001c4f5b							1								memset	           AND.L2        2,B7,B0
+002b9b58	002b9b58	23188059															memset	 || [ B0]  ADD.L1        4,A6,A6
+002b9b5c	002b9b5c	23980354						40									memset	 || [ B0]  STNW.D1T1     A7,*+A6[0]
+002b9b60	002b9b60	23980234						8	1								memset	    [ B0]  STB.D1T1      A7,*+A6[0]
+002b9b64	002b9b64	001c2f5b							1								memset	           AND.L2        1,B7,B0
+002b9b68	002b9b68	23184059															memset	 || [ B0]  ADD.L1        2,A6,A6
+002b9b6c	002b9b6c	23982234						8									memset	 || [ B0]  STB.D1T1      A7,*+A6[1]
+002b9b70	002b9b70	28980235						8	1								memset	    [ B0]  STB.D1T1      A17,*+A6[0]
+002b9b74	002b9b74	02480fd8															memset	 ||        MV.L1         A18,A4

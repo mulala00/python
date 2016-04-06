@@ -1,0 +1,658 @@
+connection[000]:
+a_service_id: 0C009F00
+b_service_id: FFFFFFFF
+rx_flow:      00C1C087
+tx_flow:      00C1C087
+mac_addr:     42:01:16:02:00:23
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal flow
+conn_number:  0001
+
+connection[001]:
+a_service_id: 10009917
+b_service_id: FFFFFFFF
+rx_flow:      0102800C
+tx_flow:      0102800C
+mac_addr:     02:03:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0002
+
+connection[002]:
+a_service_id: 0900397D
+b_service_id: FFFFFFFF
+rx_flow:      00927D50
+tx_flow:      00927D50
+mac_addr:     02:03:00:00:00:0A
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0003
+
+connection[003]:
+a_service_id: 10009917
+b_service_id: FFFFFFFF
+rx_flow:      01027840
+tx_flow:      01027840
+mac_addr:     02:03:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0004
+
+connection[004]:
+a_service_id: 0C009F00
+b_service_id: FFFFFFFF
+rx_flow:      00C2965C
+tx_flow:      00C2965C
+mac_addr:     02:03:00:00:00:0B
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0005
+
+connection[005]:
+a_service_id: 0900397D
+b_service_id: FFFFFFFF
+rx_flow:      00906788
+tx_flow:      00906788
+mac_addr:     42:01:13:02:00:40
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal flow
+conn_number:  0006
+
+connection[006]:
+a_service_id: 1901EDE7
+b_service_id: FFFFFFFF
+rx_flow:      01904DE0
+tx_flow:      01904DE0
+mac_addr:     02:03:00:00:00:0B
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0007
+
+connection[007]:
+a_service_id: 1000C370
+b_service_id: FFFFFFFF
+rx_flow:      01024949
+tx_flow:      01024949
+mac_addr:     02:03:00:00:00:09
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0009
+
+connection[008]:
+a_service_id: 01005D19
+b_service_id: FFFFFFFF
+rx_flow:      0010F420
+tx_flow:      0010F420
+mac_addr:     02:03:00:00:00:09
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  000A
+
+connection[009]:
+a_service_id: 0D02F7B7
+b_service_id: FFFFFFFF
+rx_flow:      00D28177
+tx_flow:      00D28177
+mac_addr:     02:03:00:00:00:0A
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  000B
+
+connection[010]:
+a_service_id: 19020798
+b_service_id: FFFFFFFF
+rx_flow:      01930975
+tx_flow:      01930975
+mac_addr:     02:03:00:00:00:06
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  000C
+
+connection[011]:
+a_service_id: 01005D19
+b_service_id: FFFFFFFF
+rx_flow:      0010E237
+tx_flow:      0010E237
+mac_addr:     42:03:16:02:00:32
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal flow
+conn_number:  000D
+
+connection[012]:
+a_service_id: 1902891F
+b_service_id: FFFFFFFF
+rx_flow:      0190CF17
+tx_flow:      0190CF17
+mac_addr:     02:03:00:00:00:1D
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  000E
+
+connection[013]:
+a_service_id: 10003B7E
+b_service_id: FFFFFFFF
+rx_flow:      01020440
+tx_flow:      01020440
+mac_addr:     02:03:00:00:00:1C
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  000F
+
+connection[014]:
+a_service_id: 190288B7
+b_service_id: FFFFFFFF
+rx_flow:      0192BF9B
+tx_flow:      0192BF9B
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0010
+
+connection[015]:
+a_service_id: 10007F89
+b_service_id: FFFFFFFF
+rx_flow:      0100E20E
+tx_flow:      0100E20E
+mac_addr:     02:03:00:00:00:05
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0011
+
+connection[016]:
+a_service_id: 1901EDE7
+b_service_id: FFFFFFFF
+rx_flow:      01921F6D
+tx_flow:      01921F6D
+mac_addr:     42:03:06:02:00:43
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal flow
+conn_number:  0012
+
+connection[017]:
+a_service_id: 0802BAD7
+b_service_id: FFFFFFFF
+rx_flow:      0082726D
+tx_flow:      0082726D
+mac_addr:     42:03:06:02:00:48
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal flow
+conn_number:  0014
+
+connection[018]:
+a_service_id: 190288B7
+b_service_id: FFFFFFFF
+rx_flow:      01909AB6
+tx_flow:      01909AB6
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0015
+
+connection[019]:
+a_service_id: 0D02F7B7
+b_service_id: FFFFFFFF
+rx_flow:      00D21AC0
+tx_flow:      00D21AC0
+mac_addr:     42:03:16:02:00:2A
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal flow
+conn_number:  0016
+
+connection[020]:
+a_service_id: 04000AE6
+b_service_id: FFFFFFFF
+rx_flow:      00423343
+tx_flow:      00423343
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0017
+
+connection[021]:
+a_service_id: 04000AE6
+b_service_id: FFFFFFFF
+rx_flow:      0042D2EE
+tx_flow:      0042D2EE
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0018
+
+connection[022]:
+a_service_id: 1D00ABF6
+b_service_id: FFFFFFFF
+rx_flow:      01D06FF5
+tx_flow:      01D06FF5
+mac_addr:     02:03:00:00:00:1B
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  001A
+
+connection[023]:
+a_service_id: 1D00F401
+b_service_id: FFFFFFFF
+rx_flow:      01D2D18B
+tx_flow:      01D2D18B
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  001B
+
+connection[024]:
+a_service_id: 1D00F401
+b_service_id: FFFFFFFF
+rx_flow:      01D2DA82
+tx_flow:      01D2DA82
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0021
+
+connection[025]:
+a_service_id: 1C0031D0
+b_service_id: FFFFFFFF
+rx_flow:      01C0A0CF
+tx_flow:      01C0A0CF
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0022
+
+connection[026]:
+a_service_id: 0C02BDEF
+b_service_id: FFFFFFFF
+rx_flow:      00C1AD95
+tx_flow:      00C1AD95
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0023
+
+connection[027]:
+a_service_id: 0402F184
+b_service_id: FFFFFFFF
+rx_flow:      00403784
+tx_flow:      00403784
+mac_addr:     02:03:00:00:00:10
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0024
+
+connection[028]:
+a_service_id: 1C0031D0
+b_service_id: FFFFFFFF
+rx_flow:      01C13A09
+tx_flow:      01C13A09
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0025
+
+connection[029]:
+a_service_id: 1C0031D0
+b_service_id: FFFFFFFF
+rx_flow:      01C11F1A
+tx_flow:      01C11F1A
+mac_addr:     42:02:15:02:00:0F
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal flow
+conn_number:  0029
+
+connection[030]:
+a_service_id: 090254D2
+b_service_id: FFFFFFFF
+rx_flow:      0091FC5A
+tx_flow:      0091FC5A
+mac_addr:     02:03:00:00:00:05
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  002A
+
+connection[031]:
+a_service_id: 0902DE1B
+b_service_id: FFFFFFFF
+rx_flow:      00922B3A
+tx_flow:      00922B3A
+mac_addr:     02:03:00:00:00:0B
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  002C
+
+connection[032]:
+a_service_id: 0C02BDEF
+b_service_id: FFFFFFFF
+rx_flow:      00C1C0B5
+tx_flow:      00C1C0B5
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  002D
+
+connection[033]:
+a_service_id: 0C004EE3
+b_service_id: FFFFFFFF
+rx_flow:      00C2AB36
+tx_flow:      00C2AB36
+mac_addr:     02:03:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  002F
+
+connection[034]:
+a_service_id: 0C004EE3
+b_service_id: FFFFFFFF
+rx_flow:      00C27A8A
+tx_flow:      00C27A8A
+mac_addr:     02:03:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0030
+
+connection[035]:
+a_service_id: 1901F24A
+b_service_id: FFFFFFFF
+rx_flow:      01905054
+tx_flow:      01905054
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0032
+
+connection[036]:
+a_service_id: 1901F24A
+b_service_id: FFFFFFFF
+rx_flow:      0191F6A2
+tx_flow:      0191F6A2
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0033
+
+connection[037]:
+a_service_id: 19016C7F
+b_service_id: FFFFFFFF
+rx_flow:      019058A8
+tx_flow:      019058A8
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0039
+
+connection[038]:
+a_service_id: 08013413
+b_service_id: FFFFFFFF
+rx_flow:      00800D3F
+tx_flow:      00800D3F
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0043
+
+connection[039]:
+a_service_id: 08013413
+b_service_id: FFFFFFFF
+rx_flow:      00815965
+tx_flow:      00815965
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0044
+
+connection[040]:
+a_service_id: 08016973
+b_service_id: FFFFFFFF
+rx_flow:      0082696C
+tx_flow:      0082696C
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0045
+
+connection[041]:
+a_service_id: 08016973
+b_service_id: FFFFFFFF
+rx_flow:      00824080
+tx_flow:      00824080
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  0046
+
+connection[042]:
+a_service_id: 19013104
+b_service_id: FFFFFFFF
+rx_flow:      01901976
+tx_flow:      01901976
+mac_addr:     02:03:00:00:00:13
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  0049
+
+connection[043]:
+a_service_id: 0C00028F
+b_service_id: FFFFFFFF
+rx_flow:      00C1C12B
+tx_flow:      00C1C12B
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  004A
+
+connection[044]:
+a_service_id: 0C00028F
+b_service_id: FFFFFFFF
+rx_flow:      00C2B9E4
+tx_flow:      00C2B9E4
+mac_addr:     02:03:00:00:00:08
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  004B
+
+connection[045]:
+a_service_id: 0C00252D
+b_service_id: FFFFFFFF
+rx_flow:      00C25C20
+tx_flow:      00C25C20
+mac_addr:     02:03:00:00:00:09
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  004C
+
+connection[046]:
+a_service_id: 0802BAD7
+b_service_id: FFFFFFFF
+rx_flow:      0081AF50
+tx_flow:      0081AF50
+mac_addr:     02:03:00:00:00:0B
+rate:         04
+conn_dupl:    bothway
+conn_type:    external flow data
+conn_number:  004D
+
+connection[047]:
+a_service_id: 19016C7F
+b_service_id: FFFFFFFF
+rx_flow:      0190B50A
+tx_flow:      0190B50A
+mac_addr:     02:03:00:00:00:01
+rate:         00
+conn_dupl:    bothway
+conn_type:    external flow control
+conn_number:  004F
+
+connection[048]:
+a_service_id: 04000AE6
+b_service_id: 040065B9
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    incoming
+conn_type:    internal virtual
+conn_number:  4001
+
+connection[049]:
+a_service_id: 10009917
+b_service_id: 10003B7E
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  4002
+
+connection[050]:
+a_service_id: 1000C370
+b_service_id: 10010A1E
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    incoming
+conn_type:    internal virtual
+conn_number:  4003
+
+connection[051]:
+a_service_id: 1D00ABF6
+b_service_id: 1D00F401
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  4005
+
+connection[052]:
+a_service_id: 1902891F
+b_service_id: 190288B7
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  4006
+
+connection[053]:
+a_service_id: 08013413
+b_service_id: 08016973
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  400A
+
+connection[054]:
+a_service_id: 090254D2
+b_service_id: 0902DE1B
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  400E
+
+connection[055]:
+a_service_id: 0C02BDEF
+b_service_id: 0C004EE3
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  4010
+
+connection[056]:
+a_service_id: 1901F24A
+b_service_id: 19013104
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  4013
+
+connection[057]:
+a_service_id: 0C00028F
+b_service_id: 0C00252D
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  4014
+
+connection[058]:
+a_service_id: 19020798
+b_service_id: 19016C7F
+rx_flow:      FFFFFFFF
+tx_flow:      FFFFFFFF
+mac_addr:     00:00:00:00:00:00
+rate:         00
+conn_dupl:    bothway
+conn_type:    internal virtual
+conn_number:  4015
+
+
+number of connections:
+internal virtual:       11
+internal flow:           7
+intenal media relay:     0
+external flow data:     29
+external flow control:  12
+external das:            0
+total:                  59
